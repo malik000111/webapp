@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JavaScript Tutorial</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<style>
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg,#c3f0f5,#f5d3c3);
+    margin:0; padding:20px;
+}
+.page-content {
+    max-width:900px; margin:30px auto;
+    background:#fff; padding:40px;
+    border-radius:20px; box-shadow:0 15px 40px rgba(0,0,0,0.2);
+}
+h1 { text-align:center; margin-bottom:20px; }
+h2 { margin-top:25px; color:#333; }
+p, ul { line-height:1.6; color:#333; }
+pre { background:#f4f4f4; padding:15px; border-radius:10px; overflow-x:auto; }
+button {
+    margin-top:20px; padding:12px 25px; border:none; border-radius:10px;
+    background:linear-gradient(45deg,#667eea,#764ba2);
+    color:#fff; cursor:pointer; font-size:16px; transition: transform 0.2s;
+}
+button:hover { transform: scale(1.05); background:linear-gradient(45deg,#764ba2,#667eea);}
+</style>
+</head>
+<body>
+<div class="page-content">
+<h1>JavaScript Tutorial</h1>
+
+<h2>Definition</h2>
+<p>JavaScript is a scripting language used to make web pages interactive. It runs in the browser and can change HTML and CSS dynamically.</p>
+
+<h2>Syntax</h2>
+<p>JavaScript uses statements, functions, and events. Example:</p>
+<pre>function greet() {
+    alert("Hello World!");
+}</pre>
+
+<h2>Examples</h2>
+
+<p><strong>Printing to console:</strong></p>
+<pre>console.log("Hello World");</pre>
+
+<p><strong>Changing HTML content:</strong></p>
+<pre>document.getElementById("demo").innerHTML = "Hello JS";</pre>
+
+<p><strong>Event Example:</strong></p>
+<pre>&lt;button onclick="alert('Clicked!')"&gt;Click Me&lt;/button&gt;</pre>
+
+<h2>Variables and Data Types</h2>
+<ul>
+<li><strong>var / let / const</strong> - declare variables</li>
+<li><strong>Data types:</strong> string, number, boolean, object, array</li>
+<li><strong>Functions</strong> - perform actions and return values</li>
+</ul>
+
+<button onclick="startTest()">Start Test</button>
+</div>
+
+<script>
+function startTest() {
+    window.location.href = "test.html?topic=js";
+}
+</script>
+</body>
+</html>
