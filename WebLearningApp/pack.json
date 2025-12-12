@@ -1,0 +1,78 @@
+{
+  "topics": [
+    {
+      "id": "html",
+      "name": "HTML",
+      "definition": "HTML (HyperText Markup Language) is used to create the structure of web pages.",
+      "syntax": "<!DOCTYPE html>\n<html>\n<head>\n<title>My Page</title>\n</head>\n<body>\n<h1>Hello World</h1>\n</body>\n</html>",
+      "examples": [
+        "<p>This is a paragraph.</p>",
+        "<a href='https://example.com'>Link</a>"
+      ],
+      "test": [
+        {
+          "question": "What does HTML stand for?",
+          "options": ["HyperText Markup Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language", "HyperText Machine Language"],
+          "answer": "HyperText Markup Language"
+        },
+        {
+          "question": "Which tag is used for a paragraph?",
+          "options": ["<p>", "<h1>", "<div>", "<span>"],
+          "answer": "<p>"
+        },
+        {
+          "question": "Which tag is used for links?",
+          "options": ["<a>", "<link>", "<href>", "<url>"],
+          "answer": "<a>"
+        },
+        {
+          "question": "Where does the <title> tag go?",
+          "options": ["Inside <head>", "Inside <body>", "Inside <footer>", "Outside <html>"],
+          "answer": "Inside <head>"
+        },
+        {
+          "question": "HTML files have which extension?",
+          "options": [".html", ".htm", ".txt", "Both .html and .htm"],
+          "answer": "Both .html and .htm"
+        }
+      ]
+    },
+    {
+      "id": "css",
+      "name": "CSS",
+      "definition": "CSS (Cascading Style Sheets) is used to style HTML elements and control the layout of web pages.",
+      "syntax": "selector {\n  property: value;\n}",
+      "examples": [
+        "p { color: blue; }",
+        "body { background-color: #f0f0f0; }"
+      ],
+      "test": [
+        {
+          "question": "What does CSS stand for?",
+          "options": ["Cascading Style Sheets", "Creative Style Sheets", "Colorful Style Sheets", "Computer Style Sheets"],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which property changes text color?",
+          "options": ["color", "background-color", "font-size", "text-align"],
+          "answer": "color"
+        },
+        {
+          "question": "Which is the correct CSS syntax?",
+          "options": ["selector { property: value; }", "{ selector: property; value }", "selector: property = value;", "selector = { property: value; }"],
+          "answer": "selector { property: value; }"
+        },
+        {
+          "question": "Inline CSS uses which attribute?",
+          "options": ["style", "class", "id", "css"],
+          "answer": "style"
+        },
+        {
+          "question": "External CSS is linked using which tag?",
+          "options": ["<link>", "<style>", "<script>", "<css>"],
+          "answer": "<link>"
+        }
+      ]
+    }
+  ]
+}
